@@ -1,0 +1,24 @@
+GitHub Pages 분리형 홈페이지 업로드 방법
+
+폴더 구조:
+index.html
+assets/
+  css/style.css
+  js/main.js
+  images/...
+.nojekyll
+
+처음 교체할 때:
+1. GitHub 저장소의 기존 index.html을 삭제하거나 새 index.html로 교체합니다.
+2. Add file → Upload files를 누릅니다.
+3. 이 압축을 풀고, index.html / .nojekyll / assets 폴더를 모두 업로드합니다.
+4. Commit changes를 누릅니다.
+5. 기존 GitHub Pages 주소는 그대로 유지됩니다.
+
+앞으로 수정할 때:
+- 글·레이아웃 변경: index.html 또는 assets/css/style.css, assets/js/main.js 교체
+- 사진 변경: assets/images 안의 해당 이미지만 교체
+- 파일명과 경로가 같으면 HTML 수정 없이 사진만 바뀝니다.
+
+주의:
+GitHub 웹 업로드에서는 폴더 전체를 드래그하면 내부 구조가 그대로 업로드됩니다.
